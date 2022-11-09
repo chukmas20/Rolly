@@ -56,7 +56,7 @@ public class TileManager : MonoBehaviour
 
     private void DeleteTile()
     {
-        PlayerManager.score += 2;
+        PlayerManager.score += 5;
         Destroy(activeTiles[0]);
         activeTiles.RemoveAt(0);
     }
